@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.bywin.by.dao.HistoryInfoMapper" >
+    <resultMap id="BaseResultMap" type="cn.bywin.by.model.HistoryInfo" >
+        <result column="id" property="id" jdbcType="BIGINT" />
+        <result column="pidEncrypt" property="pidencrypt" jdbcType="VARCHAR" />
+        <result column="historyInfo" property="historyinfo" jdbcType="LONGVARCHAR" />
+        <result column="dataVersion" property="dataversion" jdbcType="VARCHAR" />
+        <result column="dataUpdateTime" property="dataupdatetime" jdbcType="TIMESTAMP" />
+    </resultMap>
+    <sql id="Pagination" >
+        <if test="page != null and page.start !=null" >
+            LIMIT #{page.start,jdbcType=INTEGER},#{page.pageSize,jdbcType=INTEGER}
+        </if>
+    </sql>
+    <select id="selectCount" resultType="int" parameterType="Map" >
+        select count(*) from ehr_patient_historyinfo t 
+        <include refid="Condition" />
+    </select>
+    <select id="selectList" resultType="cn.bywin.common.model.DataMap" parameterType="Map" >
+        select t.* from ehr_patient_historyinfo t 
+        <include refid="Condition" />
+        <include refid="Pagination" />
+    </select>
+    <select id="selectAllList" resultMap="BaseResultMap" parameterType="cn.bywin.by.model.HistoryInfo" >
+        select 
+        <include refid="Base_Column_List" />
+        from ehr_patient_historyinfo t 
+        <include refid="Condition" />
+    </select>
+    <select id="selectByMap" resultType="cn.bywin.common.model.DataMap" parameterType="Map" >
+        select t.* from ehr_patient_historyinfo t 
+        <include refid="Condition" />
+    </select>
+    <insert id="insert" parameterType="cn.bywin.by.model.HistoryInfo" >
+        insert into ehr_patient_historyinfo (id, pidEncrypt, historyInfo, 
+            dataVersion, dataUpdateTime)
+        values (#{id,jdbcType=BIGINT}, #{pidencrypt,jdbcType=VARCHAR}, #{historyinfo,jdbcType=LONGVARCHAR}, 
+            #{dataversion,jdbcType=VARCHAR}, #{dataupdatetime,jdbcType=TIMESTAMP})
+    </insert>
+    <insert id="insertSelective" parameterType="cn.bywin.by.model.HistoryInfo" >
+        insert into ehr_patient_historyinfo
+        <trim prefix="(" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                id,
+            </if>
+            <if test="pidencrypt != null" >
+                pidEncrypt,
+            </if>
+            <if test="historyinfo != null" >
+                historyInfo,
+            </if>
+            <if test="dataversion != null" >
+                dataVersion,
+            </if>
+            <if test="dataupdatetime != null" >
+                dataUpdateTime,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides="," >
+            <if test="id != null" >
+                #{id,jdbcType=BIGINT},
+            </if>
+            <if test="pidencrypt != null" >
+                #{pidencrypt,jdbcType=VARCHAR},
+            </if>
+            <if test="historyinfo != null" >
+                #{historyinfo,jdbcType=LONGVARCHAR},
+            </if>
+            <if test="dataversion != null" >
+                #{dataversion,jdbcType=VARCHAR},
+            </if>
+            <if test="dataupdatetime != null" >
+                #{dataupdatetime,jdbcType=TIMESTAMP},
+            </if>
+        </trim>
+    </insert>
+</mapper>

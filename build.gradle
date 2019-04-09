@@ -1,0 +1,64 @@
+buildscript {
+    ext {
+        springBootVision='2.1.1.RELEASE'
+    }
+    repositories {
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        mavenCentral()
+    }
+    // spring-boot 插件，自动寻找main()
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVision}")
+    }
+}
+
+// 所有配置应用于所有project
+allprojects {
+    group 'cn.bywin.by'
+    version '1.0-SNAPSHOT'
+
+    repositories {
+        maven{ url 'http://maven.aliyun.com/nexus/content/groups/public/'}
+        maven{ url 'http://47.95.238.236:8081/repository/maven-public/'}
+        mavenCentral()
+    }
+    apply plugin: 'java'
+    apply plugin: 'idea'
+    apply plugin: 'eclipse'
+    apply plugin: 'maven'
+
+    apply plugin: 'org.springframework.boot'
+    apply plugin: 'io.spring.dependency-management'
+
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+    }
+
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    dependencies {
+        compile("cn.bywin:bywin-common-ehr:5.0-SNAPSHOT")
+        /*compile("cn.bywin:bywin-oauth:1.0-SNAPSHOT")*/
+        compile 'com.alibaba:druid-spring-boot-starter:1.1.9'
+        compile("cn.bywin:bywin-swagger-ui:1.0-SNAPSHOT")
+        testCompile group: 'junit', name: 'junit', version: '4.12'
+        testCompile("org.springframework.boot:spring-boot-starter-test:${springBootVision}")
+        compileOnly ("org.projectlombok:lombok:1.16.20")
+    }
+
+    bootJar {
+        mainClassName = 'cn.bywin.by.Application'
+        //baseName = 'template-alias'
+    }
+}
+
+// 所有配置应用于所有的子project
+subprojects {
+    jar {
+        enabled = true
+    }
+}
+dependencies {
+    compile project(':health-emr-api')
+}

@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: 
+    username: 
+    password: 
+
+server:
+  port: 8081
+  servlet:
+    session:
+      timeout: 1800s
+
+# 多个以逗号,分隔
+# 如果方法上有@RequiresPermissions注解，需要登录，但不需要权限；反之，不需要登录。
+shiro:
+  retryLimitEnable: true
+  retryTime: 5
+  # 启用redis缓存时有效，密码错误过多，帐号锁定时间，单位：秒
+  accountLockoutTime: 300

@@ -1,0 +1,35 @@
+spring:
+  datasource:
+    druid:
+      default:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com/health_record
+        username: health_record
+        password: Health_record123
+      first:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://192.168.2.90/health_record?serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&useSSL=false&verifyServerCertificate=false&autoReconnect=true&autoReconnectForPools=true&allowMultiQueries=true
+        username: root
+        password: bywin_root@hz#1712
+      second:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url:  jdbc:mysql://192.168.2.139:3306/health_record?serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&useSSL=false&verifyServerCertificate=false&autoReconnect=true&autoReconnectForPools=true&allowMultiQueries=true
+        username: root
+        password: root
+
+
+server:
+  port: 8080
+  servlet:
+    session:
+      timeout: 1800s
+
+# 多个以逗号,分隔
+# 如果方法上有@RequiresPermissions注解，需要登录，但不需要权限；反之，不需要登录。
+shiro:
+  whiteList: /thirdauth/**
+  retryLimitEnable: false
+  retryTime: 5
+  # 启用redis缓存时有效，密码错误过多，帐号锁定时间，单位：秒
+  accountLockoutTime: 300
+

@@ -1,0 +1,450 @@
+2019-04-09 11:20:40.465 ERROR 10408 --- [http-nio-8080-exec-2] cn.bywin.common.utils.LoggerUtil         : sun.reflect.NativeMethodAccessorImpl.invoke0(-2)#org.apache.ibatis.builder.IncompleteElementException: Could not find SQL statement to include with refid 'cn.bywin.by.dao.HistoryInfoMapper.Base_Column_List'
+2019-04-09 11:22:37.595 ERROR 10408 --- [http-nio-8080-exec-2] cn.bywin.common.utils.LoggerUtil         : sun.reflect.NativeMethodAccessorImpl.invoke0(-2)#org.apache.ibatis.builder.IncompleteElementException: Could not find SQL statement to include with refid 'cn.bywin.by.dao.RecordInfoMapper.Base_Column_List'
+2019-04-09 11:23:26.052 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:26.053 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:26.554 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:27.054 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:27.555 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:28.055 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:28.556 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:29.056 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:29.557 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:30.057 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:30.558 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:31.059 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:31.560 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:32.060 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:32.560 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:33.060 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:33.560 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:34.061 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:34.561 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:35.062 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:35.562 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:36.063 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:36.563 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:37.064 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:37.565 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:38.065 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:38.565 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:39.065 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:39.566 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:23:40.067 ERROR 16880 --- [Druid-ConnectionPool-Create-1876700598] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:30.165 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:30.166 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:30.666 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:31.167 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:31.667 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:32.168 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:32.669 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:33.169 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:33.670 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:34.171 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:34.671 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:35.171 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:35.671 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:36.172 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:36.673 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:37.173 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:37.675 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:38.176 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:38.677 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:39.177 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:39.678 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:40.179 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:40.679 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:41.180 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:41.684 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:42.185 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:42.685 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:43.185 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:43.685 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:44.185 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:44.685 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:45.186 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:45.687 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:46.188 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:46.689 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:47.190 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:47.690 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:48.190 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:48.691 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:49.192 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:49.693 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 11:56:50.193 ERROR 3232 --- [Druid-ConnectionPool-Create-655068202] com.alibaba.druid.pool.DruidDataSource   : create connection SQLException, url: rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, errorCode 0, state null
+
+java.sql.SQLException: connect error, url rm-bp1lft063mm8515ktoo.mysql.rds.aliyuncs.com, driverClass com.mysql.cj.jdbc.Driver
+	at com.alibaba.druid.pool.DruidAbstractDataSource.createPhysicalConnection(DruidAbstractDataSource.java:1582)
+	at com.alibaba.druid.pool.DruidDataSource$CreateConnectionThread.run(DruidDataSource.java:2466)
+
+2019-04-09 12:00:56.168 ERROR 16300 --- [http-nio-8080-exec-2] cn.bywin.common.utils.LoggerUtil         : sun.reflect.NativeMethodAccessorImpl.invoke0(-2)#org.springframework.jdbc.UncategorizedSQLException: 
+### Error querying database.  Cause: java.sql.SQLException: No database selected
+### The error may exist in file [E:\byCode\health-emr\health-emr-dao\out\production\resources\mapper\health-emr\base\HistoryInfoMapper.xml]
+### The error may involve cn.bywin.by.dao.HistoryInfoMapper.selectCount-Inline
+### The error occurred while setting parameters
+### SQL: select count(*) from ehr_patient_historyinfo t
+### Cause: java.sql.SQLException: No database selected
+; uncategorized SQLException; SQL state [3D000]; error code [1046]; No database selected; nested exception is java.sql.SQLException: No database selected
+2019-04-09 12:11:34.838 ERROR 12688 --- [http-nio-8080-exec-1] cn.bywin.common.utils.LoggerUtil         : sun.reflect.NativeMethodAccessorImpl.invoke0(-2)#org.springframework.jdbc.UncategorizedSQLException: 
+### Error querying database.  Cause: java.sql.SQLException: No database selected
+### The error may exist in file [E:\byCode\health-emr\health-emr-dao\out\production\resources\mapper\health-emr\base\HistoryInfoMapper.xml]
+### The error may involve cn.bywin.by.dao.HistoryInfoMapper.selectCount-Inline
+### The error occurred while setting parameters
+### SQL: select count(*) from ehr_patient_historyinfo t
+### Cause: java.sql.SQLException: No database selected
+; uncategorized SQLException; SQL state [3D000]; error code [1046]; No database selected; nested exception is java.sql.SQLException: No database selected

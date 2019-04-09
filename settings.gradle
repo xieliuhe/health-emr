@@ -1,0 +1,4 @@
+rootProject.name = 'health-emr'
+include 'health-emr-api'
+include 'health-emr-dao'
+include 'health-emr-service'
