@@ -17,7 +17,7 @@ import java.util.Map;
 public class HistoryInfoServ extends BaseServ<HistoryInfo> implements IBaseServ<HistoryInfo>{
 
     public Map selectList2(Map condition) {
-        DataSourceContext.setDataSource(DataSourceEnum.FirstDBName.getDbName());
+//        DataSourceContext.setDataSource(DataSourceEnum.FirstDBName.getDbName());
         Map<String, Object> map =super.selectList(condition);
         List<Map<String, Object>> list =(List<Map<String,Object>>) map.get("rows");
         for (Map<String, Object> mp:list) {
